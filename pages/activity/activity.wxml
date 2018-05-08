@@ -1,0 +1,21 @@
+<!--pages/activity/activity.wxml-->
+<view class='.flex-container'>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='flex-item_title'>装修的业主朋友注意啦‼️</view>
+<view class='flex-item_title'>欧普照明6月2号工厂购开始啦‼️</view>
+<view  class='flex-item' bindtap="listenerBtnGetLocation" id="tapTest"><image src="../../image/location.png"></image>瑞正园农庄（导航）</view>
+<view class='flex-item'><image src="../../image/tips.png"></image><text>活动详情:</text></view>
+<view class='flex-item'>1、活动当天凭VIP卡免费领取价值299元欧普护眼灯签到礼一台。</view>
+<view class='flex-item'>2、现场每个订单3000元，即可抵用200元，最高抵用800元。</view>
+<view class='flex-item'>3、幸运砸金蛋，3000元一次，百分百中奖。</view>
+<view class='flex-item'>4、幸运抽大奖！全套家电带回家。</view>
+<view class='flex-item'>5、活动当天，所有产品享受欧普工厂补贴，全年保价。</view>
+ </view>

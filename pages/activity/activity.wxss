@@ -1,0 +1,23 @@
+/* pages/activity/activity.wxss */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50rpx;
+  padding-top: 20rpx;
+}
+
+.flex-item {
+padding-bottom :20rpx;
+}
+
+
+.flex-item image{
+ width: 20px; height: 20px;
+}
+
+.flex-item_title{
+  padding-bottom :20rpx;
+  font-weight: bold;
+  font-size: 50rpx;
+}
+

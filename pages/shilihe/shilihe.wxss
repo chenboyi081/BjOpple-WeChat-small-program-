@@ -1,0 +1,47 @@
+/* pages/shilihe/shilihe.wxss */
+.section_tltle{
+  font-weight: bold;
+  font-size: 50rpx;
+  padding:50rpx 50rpx  20rpx  50rpx;    /*上 右 下 左 */
+}
+
+
+.shilihe_desc{
+  font-size: 30rpx;
+  color: #888888;
+}
+
+.shilihe_line{
+   padding: 0 50rpx  20rpx;
+  color: #888888;
+}
+
+.section_content{
+  padding-left:50rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_item{
+ padding-top:50rpx;
+}
+.section_item image{
+ width: 20px; height: 20px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-item{
+   padding-right:20rpx;
+}
+
+.img-item image{
+width: 100px; height: 100px; background-color: #eeeeee;
+}
+
+
+
+

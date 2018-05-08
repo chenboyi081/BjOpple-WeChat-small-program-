@@ -1,0 +1,31 @@
+<!--pages/shilihe/shilihe.wxml-->
+<view class='section_tltle'>
+<text>欧普照明 \n</text>
+<text>十里河灯饰城欧普旗舰店 \n</text>
+<text class='shilihe_desc'>生活服务.建材灯具</text>
+</view>
+
+<view class='shilihe_line'>
+<text>---------------------------------------</text>
+</view>
+
+<view  class='section_content'>
+<view  class='section_item' bindtap="listenerBtnGetLocation" id="tapTest"><image src="../../image/location.png"></image>朝阳区十里河灯饰城2F-2-20（导航）</view>
+<view class='section_item'><image src="../../image/ing.png"></image><text>10：00-18：00</text></view>
+<view class='section_item' bindtap="listenerBtnCallNumber" id="tapphone" ><image src="../../image/consult.png"></image>010-67326260</view>
+<view class='section_item'><image src="../../image/images.png"></image><text>门店照片</text></view>
+
+ <!-- <view class="img-container" wx:for="{{array}}" wx:for-item="item" wx:key="unique"> -->
+    <view class="img-container" >
+      <view class="img-item" bindtap='previewImage'>
+        <image src="../../image/d1.jpg"></image>
+      </view>
+       <view class="img-item" bindtap='previewImage'>
+        <image src="../../image/d2.jpg"></image>
+      </view>
+      <view class="img-item" bindtap='previewImage'>
+        <image  src="../../image/d3.jpg"></image>
+      </view>
+    </view> 
+</view>
+
